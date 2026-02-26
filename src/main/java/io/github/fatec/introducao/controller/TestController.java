@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.UUID;
 
 @RestController
-public class TestController {
+public class
+TestController {
 
     @GetMapping(value = "teste")
     public String teste() {
